@@ -1,0 +1,93 @@
+.sect1 {
+	position: fixed;
+	background-color: #111c40;
+	width: 15vw;
+	height: 100vh;
+	align-items: center;
+}
+
+.company {
+	/* border: white 1px solid; */
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.company img {
+	/* border: white 1px solid; */
+	width: 100px;
+}
+
+.cardHandle {
+	/* border: white 1px solid; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 15vw;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.card {
+	/* border: white 1px solid; */
+	width: 200px;
+	height: 5px;
+	border-radius: 10px;
+	background-color: #7e7e7e;
+}
+
+.btnContainer {
+	/* border: white 1px solid;` */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 15vw;
+	gap: 10px;
+}
+
+.btnContainer img {
+	/* border: white 1px solid; */
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navBtn {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	width: 11vw;
+	padding: 10px;
+	background-color: none;
+	color: white;
+	font-weight: 500;
+	text-decoration: none;
+	border: #7e7e7e 1px solid;
+	border-radius: 8px;
+	transition: background-color 0.2s, transform 0.1s;
+}
+
+.navBtn img {
+	width: 20px;
+	height: 20px;
+}
+
+.navBtn:hover {
+	background-color: #1d2a54;
+	border: #2563eb solid 2px;
+	transform: scale(1.05);
+}
+
+.navBtn:active {
+	background-color: #1d2a54;
+	border: #2563eb solid 3px;
+	transform: scale(0.95);
+}
+
+.activeBtn {
+	background-color: #1d2a54;
+	border: #2563eb solid 3px;
+	transform: scale(1.05);
+}

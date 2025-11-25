@@ -1,0 +1,17 @@
+.mainSect {
+	margin-left: 15vw;
+	height: 100vh;
+	background-color: #1d2a54;
+	border: white solid 1px;
+}
+
+.sect1 {
+	border: white solid 1px;
+	padding: 10px;
+	color: white;
+}
+
+.courseContainer {
+	border: white solid 1px;
+	padding: 100px;
+}

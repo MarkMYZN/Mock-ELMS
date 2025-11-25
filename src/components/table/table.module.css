@@ -1,0 +1,39 @@
+.wrapper {
+	overflow: hidden;
+	border-radius: 12px;
+	border: 2px solid gray;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+	width: fit-content;
+}
+
+.table {
+	border-collapse: separate;
+	border-spacing: 0;
+	font-size: 20px;
+	background-color: white;
+}
+
+/* table header color */
+.table thead tr {
+	text-align: left;
+	font-weight: bold;
+	background-color: #545454;
+}
+
+.table th,
+.table td {
+	padding: 12px 15px;
+}
+
+.table tbody tr {
+	border-bottom: 1px solid gray;
+}
+
+.table tbody tr:last-child {
+	border-bottom: none;
+}
+
+/* table every other item color */
+.table tbody tr:nth-of-type(even) {
+	background-color: #7e7e7e;
+}

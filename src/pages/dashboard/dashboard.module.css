@@ -1,0 +1,54 @@
+.mainSect {
+	margin-left: 15vw;
+	height: 100vh;
+	background-color: #1d2a54;
+	/* border: white solid 1px; */
+}
+
+.sect1 {
+	/* border: white solid 1px;
+	padding: 10px; */
+	color: white;
+}
+
+.cardContainer {
+	/* border: white solid 1px; */
+	padding: 10px;
+	align-content: center;
+}
+
+.card {
+	height: 5px;
+	border-radius: 10px;
+	background-color: #7e7e7e;
+}
+
+.sect2 {
+	/* border: white solid 1px; */
+	padding: 10px;
+	color: white;
+}
+
+.tableContainer {
+	padding: 10px;
+}
+
+.sect3 {
+	/* border: white solid 1px; */
+	padding: 10px;
+	color: white;
+}
+
+.calendarContainer {
+	padding: 10px;
+}
+
+.sect4 {
+	/* border: white solid 1px; */
+	padding: 10px;
+	color: white;
+}
+
+.messagesContainer {
+	padding: 10px;
+}
